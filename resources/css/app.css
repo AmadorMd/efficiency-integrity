@@ -5,3 +5,13 @@ body{
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
 }
+.btn{
+    @apply py-3 px-5 font-bold text-xs rounded-full border transition-colors ease-in duration-200;
+}
+.btn-primary{
+    @apply bg-primary text-white border-primary hover:text-primary hover:bg-white 
+    hover:border-white;
+}
+.btn-outline{
+    @apply bg-transparent text-white border-white hover:bg-primary hover:border-primary;
+}

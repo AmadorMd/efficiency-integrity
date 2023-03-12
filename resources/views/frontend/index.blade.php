@@ -2,7 +2,9 @@
 @section('content')
 <section>
     <div class="w-full">
-        <img src="{{ asset('images/main-banner.jpg') }}" alt="">
+        @include('frontend.partials._home-slider')
+        
     </div>
 </section>
+
 @endsection

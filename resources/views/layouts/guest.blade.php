@@ -10,6 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     @livewireStyles
+    
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    
 </head>
 <body>
     <div class="w-screen h-screen flex flex-col justify-between items-center">
@@ -126,5 +129,7 @@
     </div>
     
     @livewireScripts
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider-extensions.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 </body>
 </html>
