@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\siteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
-})->name('home');
+Route::get('/', [siteController::class, 'index'])->name('home');
+Route::get('/acerca-nosotros', [siteController::class, 'about'])->name('about');
+Route::get('/blogs', [siteController::class, 'blogs'])->name('blogs');
+Route::get('/nuestros-servicios', [siteController::class, 'services'])->name('sevices');
+Route::get('/nuestros-servicios/1', [siteController::class, 'servicesDetail'])->name('sevices.detail');

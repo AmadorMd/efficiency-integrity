@@ -10,7 +10,8 @@ module.exports = {
       colors:{
         'primary': '#374165',
         'secondary': '#374FA7',
-        'black': '#121926'
+        'black': '#121926',
+        'custom-gray': '#F6F6F6'
       }
     },
   },

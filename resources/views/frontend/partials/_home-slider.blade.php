@@ -4,10 +4,14 @@
             <div id="slide1" class="relative">
                 <img class="relative z-0" src="{{ asset('images/main-banner.jpg') }}" alt="">
                 <div class="absolute z-10 w-2/3 top-1/2 left-0 transform -translate-y-1/2 ml-5">
-                    <p class="text-white text-xl">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
-                    <div class="mt-3">
-                        <a class="btn btn-primary" href="#">ACERCA DE NOSOTROS</a>
-                        <a class="btn btn-outline" href="#">NUESTROS SERVICIOS</a>
+                    <p class="text-white">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
+                    <div class="mt-3 flex flex-col">
+                        <div>
+                            <a class="btn btn-primary" href="{{ route('about') }}">ACERCA DE NOSOTROS</a>
+                        </div>
+                        <div class="mt-5">
+                            <a class="btn btn-outline" href="#">NUESTROS SERVICIOS</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -16,7 +20,7 @@
             <div id="slide2" class="relative">
                 <img class="relative z-0" src="{{ asset('images/main-banner.jpg') }}" alt="">
                 <div class="absolute z-10 w-2/3 top-1/2 left-0 transform -translate-y-1/2 ml-5">
-                    <p class="text-white text-xl">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
+                    <p class="text-white">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
                     <div class="mt-3">
                         <a class="btn btn-primary" href="#">ACERCA DE NOSOTROS</a>
                         <a class="btn btn-outline" href="#">NUESTROS SERVICIOS</a>
@@ -28,7 +32,7 @@
             <div id="slide3" class="relative">
                 <img class="relative z-0" src="{{ asset('images/main-banner.jpg') }}" alt="">
                 <div class="absolute z-10 w-2/3 top-1/2 left-0 transform -translate-y-1/2 ml-5">
-                    <p class="text-white text-xl">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
+                    <p class="text-white">Ayudamos a organizaciones y empresas comprometidas con la <span class="font-bold">eficiencia e integridad en sus procesos.</span></p>
                     <div class="mt-3">
                         <a class="btn btn-primary" href="#">ACERCA DE NOSOTROS</a>
                         <a class="btn btn-outline" href="#">NUESTROS SERVICIOS</a>

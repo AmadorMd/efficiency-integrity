@@ -16,16 +16,13 @@
 </head>
 <body>
     <div class="w-screen h-screen flex flex-col justify-between items-center">
-        <header class="w-full">
-            <div class="w-full bg-secondary py-2 px-3">
-                <p class="text-center text-white text-xs">FACILITAMOS, DISEÑAMOS E IMPLEMENTAMOS SISTEMAS DE GESTIÓN DE INTEGRIDAD</p>
-            </div>
+        <header class="w-full z-50">
             @livewire('frontend.nav')
         </header>
-        <main class="w-full">
+        <main class="w-full mt-28">
             @yield('content')
         </main>
-        <footer class="w-full">
+        <footer class="w-full mt-10">
             <div class="bg-primary flex flex-row w-full py-6 px-6 items-center flex-wrap">
                 <div class="w-1/2">
                     <ul class="text-white text-sm flex flex-col justify-center items-start h-full w-full px-2 gap-1">
@@ -35,17 +32,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline hover:underline-offset-4">
+                            <a href="{{ route('about') }}" class="hover:underline hover:underline-offset-4">
                                 ACERCA DE NOSOTROS
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline hover:underline-offset-4">
+                            <a href="{{ route('blogs') }}" class="hover:underline hover:underline-offset-4">
                                 BLOG
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline hover:underline-offset-4">
+                            <a href="{{ route('sevices') }}" class="hover:underline hover:underline-offset-4">
                                 SERVICIOS
                             </a>
                         </li>
