@@ -42,7 +42,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('sevices') }}" class="hover:underline hover:underline-offset-4">
+                            <a href="{{ route('services') }}" class="hover:underline hover:underline-offset-4">
                                 SERVICIOS
                             </a>
                         </li>

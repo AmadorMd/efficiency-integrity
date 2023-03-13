@@ -36,7 +36,7 @@
                 </li>
             </ul>
             <div class="mt-5">
-                <a href="{{ route('sevices') }}" class="btn btn-primary">
+                <a href="{{ route('services') }}" class="btn btn-primary">
                     ver servicios
                 </a>
             </div>

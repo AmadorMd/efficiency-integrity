@@ -21,4 +21,7 @@ class siteController extends Controller
     public function blogs(){
         return view('frontend.blog.index');
     }
+    public function programs(){
+        return view('frontend.programs');
+    }
 }

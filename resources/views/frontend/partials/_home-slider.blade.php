@@ -10,7 +10,7 @@
                             <a class="btn btn-primary" href="{{ route('about') }}">ACERCA DE NOSOTROS</a>
                         </div>
                         <div class="mt-5">
-                            <a class="btn btn-outline" href="#">NUESTROS SERVICIOS</a>
+                            <a class="btn btn-outline" href="{{ route('services') }}">NUESTROS SERVICIOS</a>
                         </div>
                     </div>
                 </div>

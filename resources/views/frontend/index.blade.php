@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="mt-5 text-center">
-        <a href="{{ route('sevices') }}" class="btn btn-primary">
+        <a href="{{ route('services') }}" class="btn btn-primary">
             VER SERVICIOS
         </a>
     </div>
@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="text-center mt-10">
-            <a href="#" class="btn btn-outline">Ver programas</a>
+            <a href="{{ route('programs') }}" class="btn btn-outline">Ver programas</a>
         </div>
     </div>
 </section>

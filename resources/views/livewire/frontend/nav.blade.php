@@ -39,12 +39,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('sevices') }}">
+                    <a href="{{ route('services') }}">
                         SERVICIOS
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ route('programs') }}">
                         PROGRAMAS DE CAPACITACIÓN
                     </a>
                 </li>
