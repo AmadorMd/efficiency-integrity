@@ -20,3 +20,4 @@ Route::get('/blogs', [siteController::class, 'blogs'])->name('blogs');
 Route::get('/nuestros-servicios', [siteController::class, 'services'])->name('services');
 Route::get('/nuestros-servicios/1', [siteController::class, 'servicesDetail'])->name('services.detail');
 Route::get('/programas', [siteController::class, 'programs'])->name('programs');
+Route::get('/contacto', [siteController::class, 'contact'])->name('contact');

@@ -52,7 +52,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline hover:underline-offset-4">
+                            <a href="{{ route('contact') }}" class="hover:underline hover:underline-offset-4">
                                 CONTACTO
                             </a>
                         </li>
