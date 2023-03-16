@@ -9,12 +9,14 @@ body{
     @apply py-3 px-5 font-bold text-xs rounded-full border transition-colors ease-in duration-200 uppercase;
 }
 .btn-primary{
-    @apply bg-primary text-white border-primary hover:text-primary hover:bg-white 
-    hover:border-white;
+    @apply bg-primary text-white border-primary hover:text-primary hover:bg-white hover:border-primary;
 }
 .btn-outline{
     @apply bg-transparent text-white border-white hover:bg-primary hover:border-primary;
 }
 .form-input{
     @apply text-primary placeholder:text-primary border border-primary block w-full mt-2 px-6 py-3 rounded-full;
+}
+.form-input.is-invalid{
+    @apply border-red-600 ring-4 ring-red-700 ring-opacity-60 border-2 ring-offset-2;
 }

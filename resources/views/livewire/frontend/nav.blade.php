@@ -1,15 +1,49 @@
-<nav class="fixed">
+<nav class="fixed w-full">
     <div class="w-full bg-secondary py-2 px-3">
         <p class="text-center text-white text-xs">FACILITAMOS, DISEÑAMOS E IMPLEMENTAMOS SISTEMAS DE GESTIÓN DE INTEGRIDAD</p>
     </div>
     <div class="flex flex-row items-start w-full">
-        <div class="bg-black bg-opacity-100 px-6 py-3 flex flex-row items-center justify-between {{ $menuOpen?'w-1/2':'w-full' }} transform transition-all duration-500 ease-in-out">
+        <div class="bg-black bg-opacity-100 lg:bg-opacity-50 px-6 py-3 flex flex-row items-center justify-between {{ $menuOpen?'w-1/2':'w-full' }} transform transition-all duration-500 ease-in-out">
             <div>
                 <a href="{{ route('home') }}">
                     <img class="w-36" src="{{ asset('images/logo.svg') }}" alt="Efficiency & Integrity">
                 </a>
             </div>
             <div>
+                <div>
+                    <ul class="text-white text-sm flex-row justify-center items-start h-full w-full px-8 gap-3 hidden lg:flex ">
+                        <li>
+                            <a href="{{ route('home') }}">
+                                INICIO
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('about') }}">
+                                ACERCA DE NOSOTROS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('blogs') }}">
+                                BLOG
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('services') }}">
+                                SERVICIOS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('programs') }}">
+                                PROGRAMAS DE CAPACITACIÓN
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('contact') }}">
+                                CONTACTO
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <button wire:click="handleMenuOpen" class="bg-primary p-1 rounded-md hover:bg-sky-800 focus:ring-2 focus:ring-sky-500 block lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

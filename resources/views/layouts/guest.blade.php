@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Efficiency & Integretity</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     @livewireStyles
     
@@ -19,13 +19,13 @@
         <header class="w-full z-50">
             @livewire('frontend.nav')
         </header>
-        <main class="w-full mt-28">
+        <main class="w-full mt-28 md:mt-8">
             @yield('content')
         </main>
-        <footer class="w-full mt-10">
+        <footer class="w-full mt-10 md:mt-20">
             <div class="bg-primary flex flex-row w-full py-6 px-6 items-center flex-wrap">
-                <div class="w-1/2">
-                    <ul class="text-white text-sm flex flex-col justify-center items-start h-full w-full px-2 gap-1">
+                <div class="w-1/2 md:w-1/3">
+                    <ul class="text-white text-sm flex flex-col justify-center items-start md:items-center h-full w-full px-2 gap-1">
                         <li>
                             <a href="{{ route('home') }}" class="hover:underline hover:underline-offset-4 {{ request()->routeIs('home')?'font-bold':'' }}">
                                 INICIO
@@ -58,10 +58,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2">
+                <div class="w-1/2 md:w-1/3">
                     <img class="w-44 m-auto" src="{{ asset('images/logo.svg') }}" alt="">
                 </div>
-                <div class="w-full mt-5">
+                <div class="w-full mt-5 md:w-1/3">
                     <ul class="flex flex-row justify-center items-center gap-3">
                         <li>
                             <a href="#">
