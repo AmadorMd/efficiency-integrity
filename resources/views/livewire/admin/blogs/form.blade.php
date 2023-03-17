@@ -1,7 +1,7 @@
 <div>
     <form wire:submit.prevent="storeEntry" enctype="multipart/form-data">
         <div class="mb-5">
-            <input wire:model="title" type="text" placeholder="Titulo" class="form-input">
+            <input wire:model.debounce.500ms="title" type="text" placeholder="Titulo" class="form-input">
             @error('title')
             <span class="text-sm font-bold text-red-500">{{ $message }}</span>
         @enderror

@@ -7,7 +7,7 @@
             {{ $entry->title }}
         </h4>
         <p class="text-primary text-sm">
-            Lorem ipsum dolor sit amet
+            {!! Str::words($entry->description, 10) !!}
         </p>
         <p class="text-xs text-gray-500">{{ $entry->created_at }}</p>
         <div class="flex flex-row items-center justify-start mt-4 gap-3">
