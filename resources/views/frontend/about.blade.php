@@ -12,7 +12,7 @@
                     <span class="font-bold">de políticas de integridad empresarial.</span>
                 </h2>
                 <p class="mt-3 text-primary md:text-lg">
-                    En E&I creemos firmemente en que los empresarios, sin importar el tamaño de su empresa, tienen un compromiso con la sociedad. Un compromiso que debe ir más allá de generar empleos bien remunerados y ofrecer servicios/productos de calidad. Lo empresarios somos en nuestro día a día forjadores de cultura y de hábitos en nuestros colaboradores, en nuestros clientes y en nuestros proveedores.
+                    En E&I creemos firmemente en que los empresarios, sin importar el tamaño de su empresa, tienen un compromiso con la sociedad. Un compromiso que debe ir más allá de generar empleos bien remunerados y ofrecer servicios/productos de calidad. Lo empresarios somos en nuestro día a día forjadores de cultura y de hábitos en nuestros colaboradores, en nuestros clientes y en nuestros proveedores, por lo cual ponemos a tu disposición nuestros servicios.
                 </p>
                 <div class="mt-5">
                     <a href="{{ route('services') }}" class="btn btn-primary">ver servicios</a>
