@@ -53,26 +53,26 @@ class siteController extends Controller
                 <p class="text-primary mt-5 md:text-lg">Si está interesado en nuestro servicio, por favor no dude en ponerse en contacto con nosotros para programar una reunión y discutir los detalles de su proyecto.
                 </p>
                 ',
-                'image' => asset('images/services/detail/image-detail.jpg')
+                'image' => asset('images/services/detail/codigo-conducta.jpg')
             ],
             'control-auditoria' => [
                 'title' => 'Programa De Controles Y Auditoria De Integridad',
                 'HTMLDescription' => '<p class="text-primary mt-5 md:text-lg">E&I Ofrece un servicio de implementación de sistemas de control, vigilancia y auditoría de integridad en su organización. Incluimos auditorías periódicas para evaluar el cumplimiento de estándares de integridad, controles internos y auditoría, administración de riesgos y mejoras continúas.</p>
                 <p class="text-primary mt-5 md:text-lg">También capacitamos en metodologías basadas en las mejores prácticas internacionales para ayudar a evaluar el nivel de eficiencia y eficacia de sus sistemas de control interno e identificar medidas para fortalecer la gestión de la integridad empresarial. Si deseas conocer más contáctanos.</p>',
-                'image' => asset('images/services/detail/image-detail.jpg')
+                'image' => asset('images/services/detail/control-auditoria.jpg')
             ],
             'recursos-humanos' => [
                 'title' => 'Políticas De Recursos Humanos.',
                 'HTMLDescription' => '<p class="text-primary mt-5 md:text-lg">Nuestra empresa ofrece el servicio para implementar la cultura de inclusión y respeto a los derechos humanos en todas las áreas de su operación. Esto incluye la adopción de políticas y prácticas de recursos humanos orientadas a evitar la incorporación de personas que puedan poner en riesgo la integridad de la corporación. Además, nos esforzamos por asegurar que todas las decisiones de contratación se realicen de acuerdo con los estándares éticos y legales aplicables, sin discriminación alguna. La capacitación y la implementación rigurosa de políticas de contratación son esenciales para garantizar que los procesos se realicen de manera justa y equitativa, y para proteger los derechos de todas las personas involucradas.
                 </p>',
-                'image' => asset('images/services/detail/image-detail.jpg')
+                'image' => asset('images/services/detail/politica-humanos.jpg')
             ],
             'transpariencia-confidencialidad' => [
                 'title' => 'Transparencia Y Confidencialidad',
                 'HTMLDescription' => '<p class="text-primary mt-5 md:text-lg">E&I se compromete a promover la transparencia y la publicidad de los intereses de su organización en todas sus operaciones, con el objetivo de asegurar la integridad y confianza de nuestros stakeholders.</p>
                 <p class="text-primary mt-5 md:text-lg">Para ello, establecemos mecanismos claros y efectivos para identificar la información relevante y clasificarla adecuadamente, garantizando la confidencialidad de aquella que lo requiere y la publicidad de la información que deba ser conocida. Además, establecemos canales de comunicación eficaces para asegurar que la información relevante se difunda de manera oportuna y actualizada a todas las partes interesadas. Con estos esfuerzos, buscamos fomentar un ambiente de transparencia y confianza en todas las operaciones de la empresa.
                 </p>',
-                'image' => asset('images/services/detail/image-detail.jpg')
+                'image' => asset('images/services/detail/transparencia.jpg')
             ],
         ];
     }
